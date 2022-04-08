@@ -1,0 +1,18 @@
+.nav-link{
+    font-size:large;
+    color:red;
+}
+.nav-tabs{
+    background-color: grey;
+}
+.nav-tabs-header{
+    margin-right:auto;
+    margin-right: 50%;
+}
+a.nav-link{
+    color:indianred;
+    font-size: large;
+}
+.nav-tabs-header{
+    color: indianred;
+}

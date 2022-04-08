@@ -5,9 +5,9 @@ export default function About() {
     <div>
       <div className="container">
         <div className="row">
-          <div className="col-xs-5"></div>
           <div className="col-xs-5">
-            <h1 className="about-header">About Me</h1>
+            <h1 className="about-top">About Me</h1>
+            <h2 className="Name">Calvin Turner</h2>
             <p>
               Technical Support Engineer at a startup in Atlanta. His background
               is providing outstanding customer support, great communication
