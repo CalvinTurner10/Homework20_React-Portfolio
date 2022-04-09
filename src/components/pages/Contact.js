@@ -23,22 +23,25 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
-      </div>
-      <button type="submit">{status}</button>
-    </form>
-  );
-};
+    <section id="contact">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <h1 className="fw-bold text-center">Contact</h1>
+              <hr />
+            </div>
+          </div>
+          <div className="row mb-5">
+            <div className="col-md-6">
+              <a href="https://linkedin.com/in/calvin-t-320592167" className="link-dark">Linkedin</a>
+              <br />
+              <a href="turnerjrcalvin@gmail.com" className="link-dark">Email Me</a>
+              <br />
+              <a href="https://Github.com/CalvinTurner10" className="link-dark">Github</a>
+            </div></div></div></section>
+    );
+  }
+
+  
 
 export default ContactForm;
