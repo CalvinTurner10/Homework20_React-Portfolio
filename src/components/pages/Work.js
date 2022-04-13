@@ -4,7 +4,7 @@ import code from '/Users/calvinturner/Desktop/bootcamp/homework20/Homework20_Rea
 import quiz from '/Users/calvinturner/Desktop/bootcamp/homework20/Homework20_React-Portfolio/src/assets/Images/homework4.png'
 import day from '/Users/calvinturner/Desktop/bootcamp/homework20/Homework20_React-Portfolio/src/assets/Images/homework5.png'
 
-export default function Work() {
+function Work() {
   return (
     <div>
     <div className = 'row'>
@@ -42,3 +42,5 @@ export default function Work() {
     </div>
   );
 }
+
+export default Work;

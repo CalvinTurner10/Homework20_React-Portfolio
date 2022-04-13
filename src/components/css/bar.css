@@ -3,16 +3,19 @@
     color:red;
 }
 .nav-tabs{
-    background-color: grey;
+    background-color:gray;
 }
 .nav-tabs-header{
     margin-right:auto;
     margin-right: 50%;
 }
 a.nav-link{
-    color:indianred;
+    color:red;
     font-size: large;
 }
 .nav-tabs-header{
-    color: indianred;
+    color: red;
 }
+/* .nav{
+    background-color: black;
+} */

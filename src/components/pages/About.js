@@ -1,13 +1,16 @@
 import React from "react";
+import me from "../../../src/assets/Images/me.jpg"
 
-export default function About() {
+ function About() {
   return (
     <div>
       <div className="container">
         <div className="row">
           <div className="col-xs-5">
-            <h1 className="about-top">About Me</h1>
-            <h2 className="Name">Calvin Turner</h2>
+            <img className= "me-img" src ={me} alt= "all me" align="left"/>
+              {/* </div> */}
+          {/* <div className ="col-xs-5"> */}
+            <h1 className ="me-header"> About</h1>
             <p>
               Technical Support Engineer at a startup in Atlanta. His background
               is providing outstanding customer support, great communication
@@ -22,6 +25,8 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+  </div>
   );
 }
+
+export default About;

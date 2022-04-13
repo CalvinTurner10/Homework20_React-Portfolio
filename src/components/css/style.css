@@ -1,12 +1,14 @@
-*{
+* body{
     margin: 0;
     padding: 0;
+    background-color:gray;
 }
 section{
     float: left;
 }
 p{
-    text-align: justify;
+    text-align: left;
+    margin: 1%;
 }
 h1{
     text-align: center;
@@ -15,14 +17,28 @@ h1{
 
 img{
     width: 30%;
+    align-items: left;
+    
 }
+/* form{
+   position: fixed;
+} */
 
+.me-header{
+    text-align: left;
+    margin: 1%;
+}
+.me-img{
+    width: 30%;
+    margin: 10px;
 
-
+  
+}
+/* 
 .about-top{
     text-align: center;
     margin-top: 16%;
-}
+} */
 .col-md-5{
     flex: 2;
 }

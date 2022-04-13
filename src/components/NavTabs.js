@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './css/bar.css'
+
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div>
     <ul className="nav nav-tabs">
       <h1 className ="nav-tabs-header"> Calvin's Portfolio</h1>
 
@@ -49,7 +51,37 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
+
+// function NavTabs(props) {
+//   const{
+//     pages = [],
+//     setCurrentPage,
+//     currentPage,
+//   } = props;
+
+//   useEffect(()=>{
+//     document.title =(currentPage.name);
+
+//   },[currentPage]);
+//   return (
+//     <nav>
+//       <ul className ="flex-row">
+//         {pages.map((Page)=> (
+//           <li className={`mx-5 ${
+//             currentPage.name === Page.name && 'navActive'
+//           }`}
+//           key={Page.name}>
+//             <span onclick={() =>setCurrentPage(Page)} >
+//               {(Page.name)}
+//             </span>
+//             </li>
+//         ))}
+//       </ul>
+//     </nav>
+//   );
+// }
 
 export default NavTabs;
