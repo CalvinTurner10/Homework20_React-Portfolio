@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Homework20_React-Portfolio/static/css/main.eda85439.css",
+    "main.js": "/Homework20_React-Portfolio/static/js/main.cec8eb0f.js",
+    "static/media/code-refactor.png": "/Homework20_React-Portfolio/static/media/code-refactor.ddd268e16756c41dfe71.png",
+    "static/media/me.jpg": "/Homework20_React-Portfolio/static/media/me.e175d56bb4b8e90a1a18.jpg",
+    "static/media/homework5.png": "/Homework20_React-Portfolio/static/media/homework5.6c971313ebcb17026e49.png",
+    "static/media/homework3.png": "/Homework20_React-Portfolio/static/media/homework3.5984975bb9b87e8df611.png",
+    "static/media/homework4.png": "/Homework20_React-Portfolio/static/media/homework4.129f2627988218b5172f.png",
+    "index.html": "/Homework20_React-Portfolio/index.html",
+    "main.eda85439.css.map": "/Homework20_React-Portfolio/static/css/main.eda85439.css.map",
+    "main.cec8eb0f.js.map": "/Homework20_React-Portfolio/static/js/main.cec8eb0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eda85439.css",
+    "static/js/main.cec8eb0f.js"
+  ]
+}
